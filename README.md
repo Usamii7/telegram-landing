@@ -14,7 +14,7 @@ This is a simple landing page created to redirect users from ads to a Telegram t
 - Direct CTA button for Telegram
 
 ## 🔗 Live Page
-https://username.github.io/telegram-landing/
+https://usamii7.github.io/telegram-landing/
 
 ## 📈 Tracking
 This project may include external tracking tools like analytics or click tracking (e.g., Bitly or other trackers).
