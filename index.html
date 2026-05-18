@@ -3,59 +3,132 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Join Our Trading Channel</title>
 
-  <!-- Bootstrap CDN -->
+  <title>Trading Channels Dashboard</title>
+
+  <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="css/style.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/dashboard-style.css">
 </head>
 <body>
 
-  <div class="container d-flex justify-content-center align-items-center vh-100">
-    
-    <div class="card custom-card text-center p-4">
+<!-- Navbar -->
+<nav class="navbar navbar-dark bg-dark py-3">
+  <div class="container">
+    <span class="navbar-brand">📊 Trading Channels</span>
+  </div>
+</nav>
 
-      <!-- Logo -->
-      <img src="images/logo.png" alt="Logo" class="logo mx-auto">
+<!-- Header -->
+<section class="py-5 text-center">
+  <div class="container">
+    <h1 class="dashboard-title">Join Our Trading Communities</h1>
+    <p class="dashboard-subtitle">
+      Explore our professional trading channels for Gold, Crypto & Forex analysis.
+    </p>
+  </div>
+</section>
 
-      <!-- Heading -->
-      <h1 class="mt-2"> Trade With James </h1>
-      <h1 class="mt-2"> <br> Join Our Gold Trading Channel </h1>
+<!-- Channels -->
+<section class="pb-5">
+  <div class="container">
 
-      <!-- Description -->
-      <p class="description">
-        <br>Professional Trader | Price Action Expert <br>
-      </p>
+    <div class="row g-4">
 
-      <!-- Features -->
-      <ul class="features list-unstyled">
-        <li>🚀 Want to Improve Your Trading?</li>
-	      <li><br> 📈 Get Daily Gold Analysis & Trade Ideas   </li>
-	      <li> 🧠 Learn Risk Management Step by Step </li>
-	      <li> 📊 Simple Strategies for Beginners </li>
-	      <li><br> ❌ No Paid Groups </li>
-	      <li> ❌ No Fake Results </li>
-	      <li><br> 🔥 Just Real Progress — Completely FREE </li>
-	      <li><br> 👉 Join Now & Start Learning </li>
-      </ul>
+      <!-- Channel Card -->
+      <div class="col-md-4">
+        <div class="custom-card p-4 text-center h-100">
 
-      <!-- CTA Button -->
-      <a href="https://t.me/+ljLeJtYlG6kwNWI0" target="_blank" class="mt-3">
-        <button class="btn btn-success w-100 join-btn">
-           ✈️ Join Telegram Channel
-        </button>
-      </a>
+          <img src="images/gold-logo.png" class="logo mx-auto">
 
-      <!-- Disclaimer -->
-      <p class="disclaimer mt-3">
-        Disclaimer: Trading involves risk. This is educational content only.
-      </p>
+          <h2 class="card-title mt-3">Gold Signals</h2>
+
+          <p class="description">
+            Daily Gold market analysis, setups & risk management guidance.
+          </p>
+
+          <ul class="features list-unstyled mt-3">
+            <li>📈 Daily Analysis</li>
+            <li>🧠 Smart Trading Ideas</li>
+            <li>🔥 Beginner Friendly</li>
+          </ul>
+
+          <a href="pages/gold-signals.html" class="channel-btn mt-3">
+            <button class="btn btn-primary w-100 join-btn">
+              View Channel
+            </button>
+          </a>
+
+        </div>
+      </div>
+
+      <!-- Channel Card -->
+      <div class="col-md-4">
+        <div class="custom-card p-4 text-center h-100">
+
+          <img src="images/crypto-logo.png" class="logo mx-auto">
+
+          <h2 class="card-title mt-3">Crypto Signals</h2>
+
+          <p class="description">
+            Crypto trade ideas, market updates & educational insights.
+          </p>
+
+          <ul class="features list-unstyled mt-3">
+            <li>🚀 Market Updates</li>
+            <li>📊 Trade Setups</li>
+            <li>💎 Free Community</li>
+          </ul>
+
+          <a href="pages/crypto-signals.html" class="channel-btn mt-3">
+            <button class="btn btn-primary w-100 join-btn">
+              View Channel
+            </button>
+          </a>
+
+        </div>
+      </div>
+
+      <!-- Channel Card -->
+      <div class="col-md-4">
+        <div class="custom-card p-4 text-center h-100">
+
+          <img src="images/forex-logo.png" class="logo mx-auto">
+
+          <h2 class="card-title mt-3">Forex Signals</h2>
+
+          <p class="description">
+            Professional forex analysis & educational trading content.
+          </p>
+
+          <ul class="features list-unstyled mt-3">
+            <li>📉 Forex Setups</li>
+            <li>📚 Learning Content</li>
+            <li>⚡ Live Updates</li>
+          </ul>
+
+          <a href="pages/forex-signals.html" class="channel-btn mt-3">
+            <button class="btn btn-primary w-100 join-btn">
+              View Channel
+            </button>
+          </a>
+
+        </div>
+      </div>
 
     </div>
 
   </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-center py-4 footer">
+  <div class="container">
+    Trading involves risk. Educational purposes only.
+  </div>
+</footer>
 
 </body>
 </html>
